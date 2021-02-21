@@ -1,18 +1,18 @@
 ## aac-go
 [![TravisCI Build Status](https://travis-ci.org/gen2brain/aac-go.svg?branch=master)](https://travis-ci.org/gen2brain/aac-go) 
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/cig800cju43dbn8u?svg=true)](https://ci.appveyor.com/project/gen2brain/aac-go)
-[![GoDoc](https://godoc.org/github.com/gen2brain/aac-go?status.svg)](https://godoc.org/github.com/gen2brain/aac-go) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/gen2brain/aac-go?branch=master)](https://goreportcard.com/report/github.com/gen2brain/aac-go) 
+[![GoDoc](https://godoc.org/github.com/achilles4828/aac-go?status.svg)](https://godoc.org/github.com/achilles4828/aac-go) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/achilles4828/aac-go?branch=master)](https://goreportcard.com/report/github.com/achilles4828/aac-go) 
 
 `aac-go` provides AAC codec encoder based on [VisualOn AAC encoder](https://github.com/mstorsjo/vo-aacenc) library.
 
 ### Installation
 
-    go get -u github.com/gen2brain/aac-go
+    go get -u github.com/achilles4828/aac-go
 
 ### Examples
 
-See [micgrab](https://github.com/gen2brain/aac-go/blob/master/examples/micgrab/micgrab.go) example.
+See [micgrab](https://github.com/achilles4828/aac-go/blob/master/examples/micgrab/micgrab.go) example.
 
 ### Usage
 
@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/gen2brain/aac-go"
+	"github.com/achilles4828/aac-go"
 	"github.com/youpy/go-wav"
 )
 
